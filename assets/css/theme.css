@@ -1,0 +1,333 @@
+@media screen and (max-width: 480px) {
+  .header .header-img {
+    position: absolute;
+    bottom: 0;
+    right: 5vw;
+    width: 30vw;
+  }
+
+  .cutom_duration {
+    --animate-duration: 4s;
+  }
+
+  .sn_roadmap .text img {
+    width: 65vw;
+  }
+
+  .sn_roadmap .text h2 {
+    font-size: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    position: absolute;
+  }
+
+  marquee {
+    padding: 1vw 0;
+    border: 2px solid #000000;
+    margin-top: -5vw;
+  }
+
+  marquee p {
+    font-size: 5vw;
+  }
+
+  .sn_roadmap_content {
+    padding: 3rem 0 4rem 0;
+    gap: 2rem;
+  }
+
+  .sn_roadmap_content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0rem;
+  }
+
+  .sn_roadmap_content h2 span {
+    font-size: 2rem;
+    letter-spacing: 0rem;
+  }
+
+  .sn_roadmap_content .roadmap_items {
+    gap: 3rem;
+  }
+
+  .sn_roadmap_content .roadmap_items .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(1) .description {
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(1) .header_img .img_box {
+    -webkit-transform: translateY(1vw);
+    transform: translateY(2vw);
+    width: 60vw;
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(2) .description {
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(2) .header_img .img_box {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    width: 50vw;
+    margin-top: 5vw;
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(3) .header_img .img_box {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    width: 60vw;
+    margin-top: 5vw;
+  }
+
+  .sn_roadmap_content .roadmap_items .item:nth-child(3) .description {
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  .sn_roadmap_content .roadmap_items .item .header_img {
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    z-index: 1;
+    margin-bottom: -4rem;
+  }
+
+  .sn_roadmap_content .roadmap_items .item .header_img h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0rem;
+  }
+
+  .sn_roadmap_content .roadmap_items .item .header_img .img_box {
+    margin-top: 0rem;
+    width: 20rem;
+  }
+
+  .sn_roadmap_content .roadmap_items .item .description {
+    padding: 4rem 2rem 2rem 2rem;
+    gap: 1rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sn_roadmap_content .roadmap_items .item .description::before {
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    background-image: url("data:image/svg+xml,%3Csvg width='63' height='63' viewBox='0 0 63 63' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse cx='26.7024' cy='36.2474' rx='34.9152' ry='2.59423' transform='rotate(-45 26.7024 36.2474)' fill='black'/%3E%3Ccircle cx='31.7891' cy='31.1582' r='27.7183' fill='%23FC041C'/%3E%3Ccircle cx='43.2023' cy='19.7448' r='19.5658' fill='%23BC0012'/%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1rem;
+  }
+
+  .sn_roadmap_content .roadmap_items .item .description p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: 0rem;
+  }
+
+  .sn_roadmap_content .roadmap_items .item .description .primary_btn_a {
+    position: absolute;
+    bottom: -2rem;
+  }
+
+  .sn_social {
+    height: 44vw;
+  }
+
+  .sn_social_content {
+    height: 13rem;
+  }
+
+  .sn_social_content .content {
+    padding: 0rem 0 10vw;
+    gap: 1.5rem;
+  }
+
+  .sn_social_content .content h3 {
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+  }
+
+  .sn_social_content .content h4 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .sn_social_content .content .social_media_link {
+    gap: 1rem;
+  }
+
+  .sn_social_content .content .social_media_link a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .sn_social_content .content .social_media_link a img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .sn_fuq_content {
+    padding-top: 3rem;
+    gap: 2rem;
+  }
+
+  .sn_fuq_content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0rem;
+  }
+
+  .sn_fuq_content .question_items {
+    gap: 0.9rem;
+    padding-bottom: 32rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .sn_fuq_content .question_items::before {
+    content: "";
+    width: 32rem;
+    height: 30rem;
+    right: initial;
+  }
+
+  .sn_fuq_content .question_items .question_item {
+    border-radius: 1.4rem;
+    padding: 1.2rem;
+    gap: 0.2rem;
+  }
+
+  .sn_fuq_content .question_items .question_item .response {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    display: none;
+  }
+
+  .sn_fuq_content .question_items .question_item .question_btn p {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+
+  .sn_fuq_content .question_items .question_item .question_btn .faq_btn {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .sn_tokenomics_main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 5vw 0;
+  }
+
+  .sn_tokenomics_main .contant {
+    margin-top: 0vw;
+    position: static;
+  }
+
+  .sn_tokenomics_main .contant h2 {
+    font-size: 10vw;
+    margin-left: 4vw;
+  }
+
+  .sn_tokenomics_main .contant h3 {
+    text-align: center;
+    font-size: 6vw;
+    margin-bottom: 5vw;
+    line-height: 7vw;
+    margin-left: 4vw;
+  }
+
+  .sn_tokenomics_main .main_img {
+    display: block;
+    margin-top: 0;
+  }
+
+  @-webkit-keyframes sn_tokenomics_content {
+    0% {
+      background-position: 0;
+    }
+
+    100% {
+      background-position: 50rem;
+    }
+  }
+
+  @keyframes sn_tokenomics_content {
+    0% {
+      background-position: 0;
+    }
+
+    100% {
+      background-position: 50rem;
+    }
+  }
+
+  .copy_container {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: auto;
+  }
+
+  .copy_container .copy_button {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 1.4rem;
+  }
+
+  .copy_container .copy_content {
+    padding: 0.9375rem 1rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 1.4rem;
+  }
+
+  .copy_container .copy_content p {
+    font-size: 3vw;
+    line-height: 1.4rem;
+  }
+}
